@@ -1,0 +1,12 @@
+streamlit
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-groq==0.1.9
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+docx2txt
+pytesseract
+Pillow
+pdf2image
