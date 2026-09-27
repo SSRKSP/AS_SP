@@ -17,7 +17,7 @@ included in this repository under `sample dataset`.
 
 ## Demo Video
 
-[▶ Watch the project demonstration](PASTE-GOOGLE-DRIVE-LINK-HERE)
+▶ Watch the project demonstration in https://drive.google.com/drive/folders/1V-LgBlj_j9BigLq_dQtKqt3WHJBlV_5p
 
 ## How it works?
 
