@@ -1,10 +1,31 @@
 # Document Q&A with RAG
+## Why RAG?
+
+A normal LLM may not know the contents of a user's uploaded document.
+RAG first retrieves relevant information from the document and then
+provides that information to the LLM as context.
+
+We chose RAG because it helps the system generate answers grounded in
+the uploaded document and allows us to provide page-level sources.
+
+Our verification layer further checks whether the generated answer is
+supported by the retrieved content.
+#### Dataset / Sample Document
+
+The sample document used for testing was created by our team and is
+included in this repository under `sample dataset`.
+
+## Demo Video
+
+[▶ Watch the project demonstration](PASTE-GOOGLE-DRIVE-LINK-HERE)
+
+## How it works?
 
 Upload a PDF, ask questions about it, and get answers grounded in the document — with
 page-level sources and a built-in verification layer (confidence rating + auto-answered
 follow-up questions).
 
-## How it works
+
 
 1. **Upload** — your PDF is loaded and split into overlapping text chunks (so no sentence
    gets cut off between chunks).
@@ -38,7 +59,7 @@ pip install -r requirements.txt
 cp .env.example .env         # then paste your real Groq API key into .env
 ```
 
-Get a free Groq API key at https://console.groq.com if you don't have one from a friend.
+Get a free Groq API key at https://console.groq.com 
 
 ## Run
 
